@@ -1,0 +1,124 @@
+.waitlist-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: none !important;
+  color: #606060 !important;
+  border: solid 1px #b1b5c7 !important;
+  font-family: "Roboto", sans-serif !important;
+  text-transform: uppercase;
+  font-weight: normal;
+  letter-spacing: 1.8px;
+  padding: 0;
+  transition: all 0.25s ease !important;
+  z-index: 10;
+  outline: none;
+}
+
+.waitlist-button:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 10% !important;
+  width: 60px;
+  height: 1px;
+  transform: translateY(-1px) !important;
+  background: #7c909c !important;
+  transition: all 0.25s ease !important;
+}
+
+.waitlist-button:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 10%;
+  width: 60px;
+  height: 1px;
+  transform: translateY(1px) !important;
+  background: #7c909c !important;
+  transition: all 0.25s ease !important;
+}
+
+.waitlist-button:hover {
+  box-shadow: 1px 1px 8px #5d707b !important;
+  color: #a0afb7 !important;
+  text-shadow: 0 0 8px #c4ced2 !important;
+}
+
+.custom-modal .modal-content {
+  border-radius: 16px;
+  padding: 0;
+  width: 300px;
+  position: fixed;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-40%);
+  z-index: 20;
+}
+
+.custom-modal .modal-body {
+  text-align: center;
+  padding: 10px;
+}
+
+.custom-modal .modal-body h2 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.custom-modal .modal-body p {
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.custom-modal .modal-body form input[type="email"] {
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.custom-modal .modal-body button[type="submit"] {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  background: #5d707b;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.custom-modal .modal-header .btn-close {
+  padding: 0;
+  margin: 0;
+  background: none;
+  border: none;
+  color: #a0afb7 !important;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  transition: color 0.3s ease !important;
+}
+
+.custom-modal .modal-header .btn-close:hover {
+  color: #5d707b !important;
+  text-shadow: 0 0 8px #cccc !important;
+}
+.whatsapp-link {
+  color: #25D366;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.whatsapp-link:hover {
+  color: #128C7E;
+}

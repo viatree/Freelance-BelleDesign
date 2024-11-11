@@ -1,0 +1,58 @@
+.spheres-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  overflow: auto;
+}
+
+
+
+@media only screen 
+    and (min-device-width : 414px) 
+    and (max-device-height : 896px) 
+    and (-webkit-device-pixel-ratio : 3)
+    and (orientation : landscape) { 
+  .spheres-container {
+    /* width: 10vh; */
+    text-align: center;
+    overflow: hidden;
+    padding-top: 50px;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+  }
+  .welcome-text {
+    font-size: 2.5rem;
+    margin: 0;
+    padding: 0;
+  }
+  .welcome-image {
+    width: 200px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .canvas-container {
+    width: 100%;
+    height: 100%;
+    padding: 0%;
+    margin: 0;
+    width: auto;
+    height: 500px;
+    display: flex;
+  }
+
+  .description {
+    font-size: 1rem;
+  }
+}

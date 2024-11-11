@@ -1,0 +1,47 @@
+.videotron-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+
+.videotron-video {
+  width: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 480px) {
+  .videotron-video {
+    height: 200px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .videotron-video {
+    height: 400px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .videotron-video {
+    height: 500px;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .videotron-video {
+    height: 600px;
+  }
+}
+
+@media (min-width: 1201px) {
+  .videotron-video {
+    height: 650px;
+  }
+}

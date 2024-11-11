@@ -1,0 +1,229 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+._hero {
+  height: 90vh;
+}
+
+.hero_img {
+  width: 500px;
+  height: 450px;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 11px 13px 7px #969696;
+  align-items: end;
+  justify-content: end;
+  text-align: end;
+}
+
+._hero h6 {
+  font-size: 1.1rem;
+}
+
+._serviceIcon {
+  transition: transform 0.3s;
+}
+
+._serviceIcon:hover {
+  transform: scale(1.05);
+}
+
+.visionMission .content-box {
+  padding: 20px;
+}
+
+.visionMission .content-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.visionMission .content-inner {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.visionMission .content-inner:hover {
+  transform: scale(1.05);
+}
+
+section ._ourTeam {
+  max-height: 500px;
+}
+
+._ourTeam img {
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  border-radius: 15px;
+}
+
+._clientLogo {
+  max-width: 100%;
+  height: auto;
+  transition: transform 0.3s;
+}
+
+._clientLogo:hover {
+  transform: scale(1.05);
+}
+
+._clientShowcase .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.font-heavy {
+  font-weight: 700;
+}
+
+@media only screen and (max-width: 575.98px) {
+  ._hero ._heroServices {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  ._hero img {
+    box-shadow: none;
+    width: 100%;
+    height: auto;
+  }
+
+  ._hero h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+  }
+
+  ._hero p {
+    text-align: center;
+    font-size: 1rem;
+    letter-spacing: 0.2;
+  }
+
+  ._hero ._iconContainer {
+    display: flex;
+    flex-direction: row;
+  }
+
+  ._hero ._serviceIcon {
+    color: #1d1d1d;
+  }
+
+  ._hero h6 {
+    font-size: 0.9rem;
+  }
+
+  .visionMission h2 {
+    font-size: 1.3rem;
+  }
+
+  .visionMission p {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  ._ourTeam h2 {
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
+
+  ._ourTeam .card-img {
+    height: 400px;
+    width: 200px;
+  }
+
+  ._ourTeam .card-title {
+    font-size: 1.7rem;
+    font-weight: 500;
+  } 
+
+  ._ourTeam .card-subtitle {
+    font-size: 1.4rem;
+    font-weight: 500;
+  }
+
+  ._clientLogo {
+    max-width: 35%;
+    margin-bottom: 1.4rem;
+  }
+
+  ._faq h2 {
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
+}
+
+@media (max-width: 768px) {
+  ._hero ._heroServices {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  
+  ._hero img {
+    box-shadow: none;
+    width: 100%;
+    height: auto;
+  }
+
+  ._hero h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+  }
+
+  ._hero p {
+    text-align: center;
+    font-size: 1rem;
+    letter-spacing: 0.2;
+  }
+
+  ._hero ._iconContainer {
+    display: flex;
+    flex-direction: row;
+  }
+
+  ._hero ._serviceIcon {
+    color: #1d1d1d;
+  }
+
+  ._hero h6 {
+    font-size: 0.9rem;
+  }
+
+  .visionMission {
+    padding-top: 20px;
+  }
+
+  .visionMission h2 {
+    font-size: 1.3rem;
+  }
+
+  .visionMission p {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  ._ourTeam h2 {
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
+
+  ._clientLogo {
+    max-width: 50%;
+    margin-bottom: 1.4rem;
+  }
+
+  ._faq h2 {
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
+}

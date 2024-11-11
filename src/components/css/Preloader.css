@@ -1,0 +1,38 @@
+/* src/components/css/Preloader.css */
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  transition: background-color 0.5s ease;
+}
+
+.preloader-logo {
+  width: 100px; /* Tentukan ukuran yang sama untuk kedua gambar */
+  height: 100px; /* Tentukan ukuran yang sama untuk kedua gambar */
+  object-fit: contain; /* Pastikan gambar sesuai dengan kontainernya tanpa mengubah aspek rasio */
+  animation: fadeInOut 1s infinite;
+}
+
+.preloader.bcolor-background {
+  background-color: #1a1a1a; /* Sesuaikan dengan warna latar belakang untuk logo Bcolor */
+}
+
+.preloader.bsilver-background {
+  background-color: #f0f0f0; /* Sesuaikan dengan warna latar belakang untuk logo Bsilver */
+}
+
+@keyframes fadeInOut {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}

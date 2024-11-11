@@ -1,0 +1,9 @@
+.navbar-light .navbar-toggler {
+  border-color: transparent;
+}
+
+@media (max-width: 992px) {
+  .navbar-nav {
+    text-align: right;
+  }
+}
